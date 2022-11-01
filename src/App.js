@@ -70,7 +70,7 @@ class App extends Component {
   change(e){
     e.preventDefault();
     console.log(e.target);
-    this.setState({name: e.target.value});
+    this.setState({message: e.target.value});
   }
 
   render() {
