@@ -1,6 +1,6 @@
 .App {
   text-align: left;
-  width:1024px;
+  width: 600px;
   margin: 30px auto;
 }
 
@@ -10,9 +10,8 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #83259d;
   height: 150px;
-  padding: 20px;
   color: white;
 }
 
@@ -20,34 +19,40 @@
   font-size: large;
 }
 
-form{
-
-  margin: 10px;
-
-}
-label, input{
-  display: block;
-  margin: 10px;
-}
-
-input{
-
-  padding: 10px 3px;
-   
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-input[type='submit']{
-  padding: 10px 20px;
-  border-radius: 5px;
-  background: #DDDDDD;
-  color: #000000;
+input[type=submit] {
+  width: 100%;
+  background-color: #83259d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a93ac8;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 .box {
   background-color: lightgrey;
   width: 300px;
-  border: 15px solid green;
+  border: 15px solid #a93ac8;
   padding: 50px;
   margin: 20px;
 }
